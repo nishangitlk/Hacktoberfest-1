@@ -31,6 +31,19 @@ getIdfromurl = function(url) {
   return url;
 }
 
+Array.prototype.findLargest = function () {
+    let maxValue = this[0]
+    for (let i = 1; i < this.length; i++) {
+        if (maxValue < this[i]) {
+            maxValue = this[i]
+        }
+    }
+
+    return maxValue
+
+}
+
+console.log("Decending order = ", numberArray.findLargest())
 getImgFromId = function(id) {
   return `https://img.youtube.com/vi/${id}/hq720.jpg`;
 }
