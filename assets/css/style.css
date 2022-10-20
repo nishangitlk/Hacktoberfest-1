@@ -129,6 +129,224 @@ input[name="url"] {
   outline: none;
 }
 
+   
+#welcome h2
+{ font: normal 450% 'News Cycle', Arial, sans-serif;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px #898989;
+  color: #323232;}
+  
+ul#nav
+{ margin:0;
+  float: left;}
+
+ul#nav li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  text-align: center;   
+  background: transparent;}
+
+ul#nav li a
+{ font: bold 110% Arial, Helvetica, sans-serif;
+  height: 24px;
+  margin: 10px 0 0 0;
+  padding: 6px 20px 6px 20px;
+  background: transparent; 
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  color: #898989;
+  text-decoration: none;} 
+  
+ul#nav li.current a, ul#nav li:hover a
+{ text-shadow: 1px 1px #000;
+  color: #898989;
+  background: transparent url(../images/transparent.png) repeat;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;}
+
+#site_content
+{ width: 940px;
+  overflow: hidden;
+  margin-bottom: 30px;} 
+
+.sidebar_container
+{ float: left;
+  width: 260px;
+  padding: 0;
+  background: transparent url(../images/transparent.png) repeat;}
+
+.sidebar
+{ float: left;
+  width: 240px;
+  margin: 20px 0px 10px 20px;}
+
+.sidebar_item
+{ width: 220px;}
+
+.sidebar h2
+{ padding: 5px 0 0 0;
+  font: bold 150% 'News Cycle', Arial, sans-serif;
+  height: 30px;} 
+
+#content
+{ width: 670px;
+  margin: 0 0 20px 10px;
+  float: left;}
+
+.content_item
+{ width: 670px;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+ 
+.content_imagetext
+{ width: 640px;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  float: left;}
+ 
+.content_image
+{ float: left; 
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 10px 0;}
+  
+.content_container
+{ width: 300px;
+  padding: 5px;
+  margin: 20px 10px 0 0;
+  float: left;}
+  
+footer
+{ height: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center; 
+  text-shadow: 1px 1px #000;
+  color: #898989;}
+
+footer a, footer a:hover
+{ text-shadow: 1px 1px #000;
+  color: #898989;
+  padding-bottom: 20px;}
+ 
+ .button_small
+{ font: normal 110% Arial, Helvetica, sans-serif;
+  float: left;
+  padding: 5px 15px 7px 10px;
+  border: 1px solid #FFF; 
+  background: transparent url(../images/transparent.png) repeat;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+  
+.button_small a
+{ color: #FFF;
+  padding-left: 5px;
+  text-shadow: 1px 1px #000;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 280px; 
+  text-align: left;
+  text-shadow: none;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid #FFF; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: transparent url(../images/transparent.png) repeat;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px #000;}
+  
+/* Removed from template
+.slideshow
+{ width: 940px;
+  height: 300px;
+  float: left;}  
+  
+
+ul.slideshow {
+  list-style: none;
+  width: 940px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;}
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;}
+*/
+
+ul img {
+  border: none;}
+ 
+#slideshow-caption {
+  width: 940px;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 10px 25px 10px 25px; 
+  background: transparent url(../images/transparent.png) repeat;  
+  z-index: 1000;}
+ 
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% arial, sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px #000;}
+ 
+ 
+
 .thumbnailimg {
   width: 100%;
   margin: 20px 0;
