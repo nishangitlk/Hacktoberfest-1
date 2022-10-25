@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forest Watch Sri Lanka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-success fixed-top">
+        <a class="navbar-brand" href="index.html" style="color: blanchedalmond;">FOREST WATCH</a>
+        <img src="img/logo.png" alt="" srcset="" style="width: 90px; margin-top: 0px;">
+    </nav>
+    <!-- class="navbar" -->
+    <div id="loading">
+        <div class="mt-5 mb-5">
+            <h1 style="color: aliceblue;">.</h1>
+        </div>
+        
+        <div class="container">
+            <section class="content">
+                <div class="row">
+                    <div class="col-md-4 mr-auto ml-auto">
+                        <div class="loading-wrapper d-flex align-items-center justify-content-center">
+                            <div class="loading-bar"></div>
+                        </div>
+                        <div class="loading-name">
+                            <p id="loading-text">FETCHING RESOURCES...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="show" class="container mt-5">
+        <div class="mt-5 mb-5">
+            <h1 style="color: aliceblue;">.</h1>
+        </div>
+        <div class="row">
+            <div class="col mr-auto ml-auto">
+                <h2 class="mb-5">2021 January</h2>
+                <a href="img/wilpattu_B/2021_01_recreate.png"><img src="img/wilpattu_B/2021_01_recreate.png" alt="" style="width: 100%;"></a>
+            </div>
+
+            <div class="col">
+                <h2 class="mb-5">2021 March 07</h2>
+                <a href="img/wilpattu_B/2021-03-07.png"><img src="img/wilpattu_B/2021-03-07.png" alt="" style="width: 100%;"></a>
+            </div>
+
+            <div class="col">
+                <h2 class="mb-5">Deforestation</h2>
+                <a href="img/wilpattu_B/2021 jan vs 20210307 cut marked image.png"><img src="img/wilpattu_B/2021 jan vs 20210307 cut marked image.png" alt="" style="width: 100%;"></a>
+            </div>
+
+        </div>
+
+        <h4 class="container mt-5">The red indicators shows the areas affected from deforestation or subjected to changes.</h4>
+
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css1/base.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <script> 
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#loading').hide();
+            }, 4000);
+
+            $("#show").hide(); 
+            setTimeout(function(){ 
+                $("#show").show(); 
+            },4000); 
+
+    
+
+            setInterval(function() {
+                document.getElementById("loading-text").innerHTML = "REQUESTING SATELITE IMAGES...";
+            }, 2000);
+
+            setInterval(function() {
+                document.getElementById("loading-text").innerHTML = "PROCESSING...";
+            }, 3000);
+
+        });
+    </script>
+</body>
+
+</html>
